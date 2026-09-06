@@ -1,11 +1,10 @@
 // Datos de ejemplo. En esta actividad no usamos una base de datos.
 const partidosIniciales = [
-  { id: 1, deporte: "Fútbol", ubicacion: "Complejo Deportivo Norte", fecha: "2026-09-05", hora: "20:00", nivel: "Amateur", cupos: 1 },
-  { id: 2, deporte: "Básquetbol", ubicacion: "Gimnasio Municipal", fecha: "2026-09-06", hora: "18:30", nivel: "Intermedio", cupos: 2 },
+  { id: 1, deporte: "Fútbol", ubicacion: "Complejo Unión La Calera", fecha: "2026-09-07", hora: "20:00", nivel: "Amateur", cupos: 1 },
+  { id: 2, deporte: "Fútbol", ubicacion: "Canchas San Luis de Quillota", fecha: "2026-09-08", hora: "18:30", nivel: "Intermedio", cupos: 2 },
   { id: 3, deporte: "Pádel", ubicacion: "Pádel Club Centro", fecha: "2026-09-07", hora: "19:00", nivel: "Amateur", cupos: 1 },
-  { id: 4, deporte: "Fútbol", ubicacion: "Cancha Los Aromos", fecha: "2026-09-08", hora: "21:00", nivel: "Competitivo", cupos: 3 },
-  { id: 5, deporte: "Básquetbol", ubicacion: "Parque Deportivo Sur", fecha: "2026-09-09", hora: "17:30", nivel: "Amateur", cupos: 1 },
-  { id: 6, deporte: "Pádel", ubicacion: "Arena Pádel", fecha: "2026-09-10", hora: "20:30", nivel: "Intermedio", cupos: 2 }
+  { id: 4, deporte: "Básquetbol", ubicacion: "Gimnasio Municipal", fecha: "2026-09-09", hora: "17:30", nivel: "Amateur", cupos: 1 },
+  { id: 5, deporte: "Fútbol", ubicacion: "Centro Deportivo Marcelo Salas", fecha: "2026-09-10", hora: "12:00", nivel: "Amateur", cupos: 3 }
 ];
 
 let partidos = [...partidosIniciales];
